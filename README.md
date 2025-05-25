@@ -8,12 +8,12 @@
 
 ## <b> Tentang Projek Ini </b><br>
 Proyek ini adalah RESTful API Laravel 11 untuk manajemen User, Produk, Lokasi, dan Mutasi Stok. Produk dan lokasi memiliki relasi many-to-many dengan stok pada tabel pivot. Fitur meliputi:<br>
-Login dan autentikasi token (Sanctum)<br>
-CRUD untuk semua entitas<br>
-Mutasi stok masuk & keluar<br>
-Riwayat mutasi per produk & user<br>
-Format output JSON<br>
-Dokumentasi tersedia via Postman<br>
+- Login dan autentikasi token (Sanctum)<br>
+- CRUD untuk semua entitas<br>
+- Mutasi stok masuk & keluar<br>
+- Riwayat mutasi per produk & user<br>
+- Format output JSON<br>
+- Dokumentasi tersedia via Postman<br>
 
 ## <b> Cara Install API </b><br>
 - Clone projek dengan syntax "<i>git clone <url-repo></i>"<br>
