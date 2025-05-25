@@ -33,7 +33,7 @@ Proyek ini adalah RESTful API Laravel 11 untuk manajemen User, Produk, Lokasi, d
 - Jalankan Docker<br>
   "docker compose up"<br>
 - Masuk ke container laravelnya<br>
-  "docker exec -it nama_container_app bash" atau "docker exec -it <nama_container_app> sh"<br>
+  "docker exec -it nama_container_app bash" atau <br>"docker exec -it nama_container_app sh"<br>
 - Setelah masuk ke container, jalankan migrasi dan seedernya<br>
   "php artisan migrate --seed"<br>
 - Jalankan server<br>
