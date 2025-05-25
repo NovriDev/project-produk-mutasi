@@ -28,7 +28,7 @@ Dokumentasi tersedia via Postman<br>
 - Jalankan server<br>
   "php artisan serve"<br>
 
-<b>Link Postman</b>
+<b>Link Postman :</b><br>
 https://www.postman.com/novridev/workspace/laravel-api-project/collection/32242495-8ddbe450-167e-4070-8251-77d9718f8400?action=share&creator=32242495
 
 ## License
