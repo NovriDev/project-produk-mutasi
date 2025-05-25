@@ -26,7 +26,19 @@ Proyek ini adalah RESTful API Laravel 11 untuk manajemen User, Produk, Lokasi, d
 - Jalankan migrasi database dengan seeder<br>
   "php artisan migrate --seed"<br>
 - Jalankan server<br>
+  "php artisan serve"<br><br>
+<b>Menjalankan aplikasi dengan docker</b><br>
+- Pastikan sudah terinstall <b>Docker Desktop</b> pada PC atau laptop <br>
+- Konfigurasi <i>.env</i> dengan docker-compose.yml <br>
+- Jalankan Docker<br>
+  "docker compose up"<br>
+- Masuk ke container laravelnya<br>
+  "docker exec -it nama_container_app bash" atau "docker exec -it <nama_container_app> sh"<br>
+- Setelah masuk ke container, jalankan migrasi dan seedernya<br>
+  "php artisan migrate --seed"<br>
+- Jalankan server<br>
   "php artisan serve"<br>
+
 
 ## <b>Link Postman :</b><br>
 https://www.postman.com/novridev/workspace/laravel-api-project/collection/32242495-8ddbe450-167e-4070-8251-77d9718f8400?action=share&creator=32242495
