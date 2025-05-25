@@ -27,7 +27,7 @@ Proyek ini adalah RESTful API Laravel 11 untuk manajemen User, Produk, Lokasi, d
   "php artisan migrate --seed"<br>
 - Jalankan server<br>
   "php artisan serve"<br><br>
-<b>Menjalankan aplikasi dengan docker</b><br>
+<b>Menjalankan aplikasi dengan Docker</b><br>
 - Pastikan sudah terinstall <b>Docker Desktop</b> pada PC atau laptop <br>
 - Konfigurasi <i>.env</i> dengan docker-compose.yml <br>
 - Jalankan Docker<br>
